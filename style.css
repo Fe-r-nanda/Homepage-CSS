@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bgPrimary{
+    background: #F2D5C4;
+    
+}
+
+.bgSecondary{
+    background: #FEF6F0;
+    
+}
+
+.bgThird{
+    background: #FFFBF7;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+    color: #463232;
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;  /*alinha na vertical*/
+    justify-content: space-between;    /*alinha um item com o outro na horizontal*/
+    height: 60px;
+    pad: 0 45px;
+}
+
+nav h3{
+    font-size: 2rem;    /*32px*/
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;    /*tranforma td escrita em letra maiuscula*/
+    margin-left: 2.5%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.imgFundo{
+    background-image: url(../img/background-image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: space-around;
+   height: 350px;
+   width: 25%;
+   padding-left: 100px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.details input{
+    width: 80%;         /*largura*/
+    height: 40px;
+    padding: 0 16px;      /*cima/baixo        esq/dir*/
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.details input:focus{           /*quando a borda permanece na hora de digitar tiramos a força assim estilo hover*/ 
+    outline: none;                /*quando tiver clicado (entrar em foco) nao mostra o outline (borda)*/
+}
+
+.details button{
+    width: 60%;         /*largura*/
+    height: 40px;
+    background: #7e7070;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+}
+
+.empresas{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.produtoUnico{
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+#comprar{
+    width: 50%;         /*largura*/
+    height: 40px;
+    background: #FFF;
+    font-family: 'Poppins', sans-serif;
+    color: #7e7070;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+
+}
+
+#detalhes{
+    width: 50%;         /*largura*/
+    height: 40px;
+    background: #FFF;
+    font-family: 'Poppins', sans-serif;
+    color: #7e7070;
+    font-size: 1.3rem;
+    border: 1px solid #463232;
+    outline: none;
+}
+
+.part{
+    text-align: center;
+    padding: 60px 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #463232;
+}
+
+.products{
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    justify-content: space-between;
+   padding: 30px 100px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.buyButton{
+    width: 30%;         
+    height: 50px;
+    background: #7e7070;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    align-items: center;  /*alinha na vertical*/
+    justify-content: space-between; 
+    padding: 10px 0;
+}
+
+.addButton{
+    width: 30%;         
+    height: 50px;
+    background: #FFF;
+    font-family: 'Poppins', sans-serif;
+    color: #7e7070;
+    font-size: 1rem;
+    border: 1px solid #463232;
+    outline: none;
+    align-items: center;  /*alinha na vertical*/
+    justify-content: space-between; 
+    padding: 2px 0;
+}
+
+#prod{
+    font-size: 3rem;
+}
+
+.prods{
+    font-size: 2rem;
+    text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: space-around;
+   padding-left: 100px;
+}
+
+.discription{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: space-around;
+   padding-left: 100px;
+}
+
+.almostDone{
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.numbers{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.lastPhrase{
+    font-family: 'Poppins', sans-serif;
+}
